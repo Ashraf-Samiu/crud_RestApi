@@ -124,7 +124,7 @@ class _ProductUpdateScreenState extends State<ProductUpdateScreen> {
                   SizedBox(height: 20,),
                   appDropDownStyle(
                     DropdownButton(
-                      value: "1 pcs",
+                      value: formValues["Qty"],
                       items: [
                         DropdownMenuItem(
                           child: Text("Select Qty"),
